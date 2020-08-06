@@ -13,6 +13,14 @@
 		A9D4A11E24DAA0F50056A51A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D4A11C24DAA0F50056A51A /* Main.storyboard */; };
 		A9D4A12024DAA0F60056A51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D4A11F24DAA0F60056A51A /* Assets.xcassets */; };
 		A9D4A12324DAA0F60056A51A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D4A12124DAA0F60056A51A /* LaunchScreen.storyboard */; };
+		A9D4A12B24DAA7B90056A51A /* BigImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D4A12A24DAA7B90056A51A /* BigImageViewController.swift */; };
+		A9D4A13324DBC9170056A51A /* トニー・スターク.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D4A12C24DBC9160056A51A /* トニー・スターク.jpg */; };
+		A9D4A13424DBC9170056A51A /* キャプテン・マーベル.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D4A12D24DBC9160056A51A /* キャプテン・マーベル.jpg */; };
+		A9D4A13524DBC9170056A51A /* マイティー・ソー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D4A12E24DBC9160056A51A /* マイティー・ソー.jpg */; };
+		A9D4A13624DBC9170056A51A /* ホークアイ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D4A12F24DBC9170056A51A /* ホークアイ.jpg */; };
+		A9D4A13724DBC9170056A51A /* キャプテン・アメリカ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D4A13024DBC9170056A51A /* キャプテン・アメリカ.jpg */; };
+		A9D4A13824DBC9170056A51A /* エンドゲーム.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D4A13124DBC9170056A51A /* エンドゲーム.jpg */; };
+		A9D4A13924DBC9170056A51A /* ブラック・ウィドウ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D4A13224DBC9170056A51A /* ブラック・ウィドウ.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		A9D4A11F24DAA0F60056A51A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9D4A12224DAA0F60056A51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9D4A12424DAA0F60056A51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D4A12A24DAA7B90056A51A /* BigImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigImageViewController.swift; sourceTree = "<group>"; };
+		A9D4A12C24DBC9160056A51A /* トニー・スターク.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "トニー・スターク.jpg"; sourceTree = "<group>"; };
+		A9D4A12D24DBC9160056A51A /* キャプテン・マーベル.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "キャプテン・マーベル.jpg"; sourceTree = "<group>"; };
+		A9D4A12E24DBC9160056A51A /* マイティー・ソー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "マイティー・ソー.jpg"; sourceTree = "<group>"; };
+		A9D4A12F24DBC9170056A51A /* ホークアイ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ホークアイ.jpg"; sourceTree = "<group>"; };
+		A9D4A13024DBC9170056A51A /* キャプテン・アメリカ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "キャプテン・アメリカ.jpg"; sourceTree = "<group>"; };
+		A9D4A13124DBC9170056A51A /* エンドゲーム.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "エンドゲーム.jpg"; sourceTree = "<group>"; };
+		A9D4A13224DBC9170056A51A /* ブラック・ウィドウ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ブラック・ウィドウ.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +75,15 @@
 				A9D4A11624DAA0F50056A51A /* AppDelegate.swift */,
 				A9D4A11824DAA0F50056A51A /* SceneDelegate.swift */,
 				A9D4A11A24DAA0F50056A51A /* ViewController.swift */,
+				A9D4A12A24DAA7B90056A51A /* BigImageViewController.swift */,
 				A9D4A11C24DAA0F50056A51A /* Main.storyboard */,
+				A9D4A13124DBC9170056A51A /* エンドゲーム.jpg */,
+				A9D4A13024DBC9170056A51A /* キャプテン・アメリカ.jpg */,
+				A9D4A12D24DBC9160056A51A /* キャプテン・マーベル.jpg */,
+				A9D4A12C24DBC9160056A51A /* トニー・スターク.jpg */,
+				A9D4A13224DBC9170056A51A /* ブラック・ウィドウ.jpg */,
+				A9D4A12F24DBC9170056A51A /* ホークアイ.jpg */,
+				A9D4A12E24DBC9160056A51A /* マイティー・ソー.jpg */,
 				A9D4A11F24DAA0F60056A51A /* Assets.xcassets */,
 				A9D4A12124DAA0F60056A51A /* LaunchScreen.storyboard */,
 				A9D4A12424DAA0F60056A51A /* Info.plist */,
@@ -125,9 +149,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D4A13824DBC9170056A51A /* エンドゲーム.jpg in Resources */,
+				A9D4A13324DBC9170056A51A /* トニー・スターク.jpg in Resources */,
+				A9D4A13724DBC9170056A51A /* キャプテン・アメリカ.jpg in Resources */,
+				A9D4A13624DBC9170056A51A /* ホークアイ.jpg in Resources */,
 				A9D4A12324DAA0F60056A51A /* LaunchScreen.storyboard in Resources */,
 				A9D4A12024DAA0F60056A51A /* Assets.xcassets in Resources */,
 				A9D4A11E24DAA0F50056A51A /* Main.storyboard in Resources */,
+				A9D4A13524DBC9170056A51A /* マイティー・ソー.jpg in Resources */,
+				A9D4A13924DBC9170056A51A /* ブラック・ウィドウ.jpg in Resources */,
+				A9D4A13424DBC9170056A51A /* キャプテン・マーベル.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +172,7 @@
 				A9D4A11B24DAA0F50056A51A /* ViewController.swift in Sources */,
 				A9D4A11724DAA0F50056A51A /* AppDelegate.swift in Sources */,
 				A9D4A11924DAA0F50056A51A /* SceneDelegate.swift in Sources */,
+				A9D4A12B24DAA7B90056A51A /* BigImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
