@@ -108,6 +108,12 @@ class ViewController: UIViewController {
     // 画像がタップされた時に処理を行う
     @IBAction func tapImage(_ sender: Any) {
         self.performSegue(withIdentifier: "toBigImage", sender: nil)
+        if self.timer != nil {
+            self.timer.invalidate()
+            self.timer = nil
+            
+            startStopButton.setTitle("再生", for: .normal)
+        }
     }
     
     // 遷移先へデータを渡す
