@@ -109,9 +109,13 @@ class ViewController: UIViewController {
     @IBAction func tapImage(_ sender: Any) {
         self.performSegue(withIdentifier: "toBigImage", sender: nil)
         if self.timer != nil {
+            // スライドショーを停止する
             self.timer.invalidate()
             self.timer = nil
-            
+            // 進む・戻るボタンを再表示
+            nextButton.isEnabled = true
+            backButton.isEnabled = true
+            // ボタンの名前を 再生 に設定
             startStopButton.setTitle("再生", for: .normal)
         }
     }
